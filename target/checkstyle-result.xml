@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="/Users/Shlok/Desktop/testjava/project/src/main/java/adventure/Adventure.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="20" column="23" severity="error" message="Name &apos;item_list&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="21" column="23" severity="error" message="Name &apos;room_list&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="45" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="107" column="13" severity="error" message="&apos;index&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="134" column="20" severity="error" message="Name &apos;item_current&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="135" column="24" severity="error" message="Name &apos;item_current_object&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="168" column="13" severity="error" message="&apos;}&apos; at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="259" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+</file>
+<file name="/Users/Shlok/Desktop/testjava/project/src/main/java/adventure/Command.java">
+<error line="15" column="38" severity="error" message="Name &apos;COMMAND_NOUN&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+<error line="16" severity="error" message="Line is longer than 120 characters (found 138)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="16" column="38" severity="error" message="Name &apos;COMMAND_VERB&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+<error line="34" column="38" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="54" column="42" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="57" column="40" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+</file>
+<file name="/Users/Shlok/Desktop/testjava/project/src/main/java/adventure/Game.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="5" column="8" severity="error" message="Unused import - org.json.simple.JSONArray." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="7" column="8" severity="error" message="Unused import - org.json.simple.parser.ParseException." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="12" column="1" severity="error" message="Redundant import from the java.lang package - java.lang.ClassNotFoundException." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="12" column="8" severity="error" message="Unused import - java.lang.ClassNotFoundException." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="28" column="24" severity="error" message="Name &apos;adventure_json&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="38" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="49" column="20" severity="error" message="&apos;parser&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="86" column="51" severity="error" message="&apos;first&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="94" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="121" column="53" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="123" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="126" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="127" column="21" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="129" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="130" column="60" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="132" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="133" column="65" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="135" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="147" column="32" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="150" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="175" column="39" severity="error" message="Expected @param tag for &apos;inp&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="245" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="258" severity="error" message="Line is longer than 120 characters (found 127)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="258" column="42" severity="error" message="Array brackets at illegal position." source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="261" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="264" severity="error" message="Line is longer than 120 characters (found 134)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="267" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="270" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="271" column="14" severity="error" message="Must have at least one statement." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+<error line="311" column="17" severity="error" message="&apos;}&apos; at column 17 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="314" column="17" severity="error" message="&apos;}&apos; at column 17 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="318" column="17" severity="error" message="&apos;}&apos; at column 17 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="326" column="23" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="343" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="363" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="400" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="411" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="422" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="431" column="43" severity="error" message="Expected @param tag for &apos;fileName&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="464" column="40" severity="error" message="Array brackets at illegal position." source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="477" column="13" severity="error" message="&apos;}&apos; at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="480" column="13" severity="error" message="&apos;}&apos; at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="486" column="28" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+</file>
+<file name="/Users/Shlok/Desktop/testjava/project/src/main/java/adventure/Item.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="4" column="8" severity="error" message="Unused import - org.json.simple.JSONArray." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="28" column="28" severity="error" message="Expected @param tag for &apos;item_current_object&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="28" column="28" severity="error" message="Name &apos;item_current_object&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="37" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" column="32" severity="error" message="Expected @param tag for &apos;item&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="65" column="43" severity="error" message="Expected @param tag for &apos;itemLongDes&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="72" column="32" severity="error" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="86" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="93" column="40" severity="error" message="Expected @param tag for &apos;room&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/Shlok/Desktop/testjava/project/src/main/java/adventure/Parser.java">
+<error line="3" column="1" severity="error" message="Redundant import from the same package - adventure.Adventure." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="3" column="8" severity="error" message="Unused import - adventure.Adventure." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="4" column="1" severity="error" message="Redundant import from the same package - adventure.InvalidCommandException." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="21" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="33" column="77" severity="error" message="Array brackets at illegal position." source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="67" column="21" severity="error" message="Array brackets at illegal position." source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="72" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="76" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+</file>
+<file name="/Users/Shlok/Desktop/testjava/project/src/main/java/adventure/Player.java">
+<error line="13" column="18" severity="error" message="Name &apos;current_room&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="15" column="20" severity="error" message="Variable &apos;alreadySaved&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="20" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="27" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="34" column="32" severity="error" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="34" column="32" severity="error" message="Expected @param tag for &apos;name&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="66" column="35" severity="error" message="Expected @param tag for &apos;inventoryItem&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="80" column="37" severity="error" message="Expected @param tag for &apos;thisroom&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="94" column="40" severity="error" message="Expected @param tag for &apos;setter&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/Shlok/Desktop/testjava/project/src/main/java/adventure/Room.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="47" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="76" column="46" severity="error" message="Expected @param tag for &apos;list&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="112" column="8" severity="error" message="Unused @param tag for &apos;list&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="114" column="47" severity="error" message="Expected @param tag for &apos;rooms&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="146" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+</file>
+</checkstyle>
