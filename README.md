@@ -11,4 +11,4 @@ To run program (refer to pom.xml)
 - execute: mvn exec:java
 - jar: mvn assembly:assembly
  (this will make two jar files.  Use the one with dependencies)
-> to run your executable jar: java -jar <pathtoexecutablejarwithdependencies> <flags>
+# to run your executable jar: java -jar <pathtoexecutablejarwithdependencies> <flags>
